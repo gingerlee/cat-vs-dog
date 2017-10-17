@@ -9,4 +9,8 @@ $(function() {
     $("ul.cat").prepend("<li>I'm so over you!</li>");
   });
 
+  $("button.image").click(function() {
+    $("img#pizza").show();
+  });
+
 });
